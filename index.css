@@ -1,0 +1,36 @@
+@media screen, print {
+    body {
+        background: rgb(49, 48, 48);
+        font: 20px 'Bodoni MT';
+        color: rgb(218, 218, 218);
+    }
+}
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+h1 {
+    font: bold 32px;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    padding: 0.32em;
+}
+a {
+    margin: auto;
+    width: fit-content;
+    text-decoration: underline;
+    padding: 3px;
+}
+p > a:link, p > a:visited {
+    color: rgb(103, 253, 128);
+}
+a:link, a:visited {
+    color: rgb(255, 181, 43);
+}
+a:hover {
+    color: rgb(199, 163, 255); 
+}
+div {
+    margin: 0.032em 3.2em;
+}
