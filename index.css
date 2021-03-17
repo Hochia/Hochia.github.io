@@ -34,3 +34,7 @@ a:hover {
 div {
     margin: 0.032em 3.2em;
 }
+footer {
+    text-align: center;
+    margin: 2em 0em 0.5em;
+}
